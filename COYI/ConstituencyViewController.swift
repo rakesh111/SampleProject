@@ -15,14 +15,17 @@ class ConstituencyViewController: UIViewController,UICollectionViewDelegate,UICo
     @IBOutlet weak var nextBtn: UIButton!
     @IBOutlet weak var nextBTN: UIButton!
     
-    var places = ["name1","name2","name3"]
+    var places = ["Varkala","Attingal","Chirayinkeezhu","Nedummangad","Vamanapuram","Vattiyoorkavu","TVM","Nemom","Aruvikkara","Parasala","Kattakada","Kovalam","Neyyatinkara"]
     override func viewDidLoad() {
         
         
         
         constCollectionView.dataSource = self
         constCollectionView.delegate = self
-        constCollectionView.register(PlaceCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        //constCollectionView.register(PlaceCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        
+        constCollectionView.register(UINib(nibName:"PlaceCollectionViewCell", bundle:nil), forCellWithReuseIdentifier: "Cell")
+
         constCollectionView.backgroundColor = UIColor.white
         self.nextBTN.layer.cornerRadius = 10
         self.constiLabel.layer.borderWidth = 0.5
@@ -69,11 +72,12 @@ class ConstituencyViewController: UIViewController,UICollectionViewDelegate,UICo
         
        //cell.placeLabel.tintColor = UIColor(colorLiteralRed: 0.278, green: 0.694, blue: 0.537, alpha: 1.00).cgColor
     
-        cell.layer.cornerRadius = 35
+        cell.layer.cornerRadius = 40
         cell.layer.masksToBounds = true
         print("places\(indexPath.row)")
         //cell.placeLabel.text = places[indexPath.row] as! String
         cell.placeLabel.text = places[indexPath.row]
+        cell.placeLabel.textColor = UIColor(colorLiteralRed: 0.278, green: 0.694, blue: 0.537, alpha: 1.00)
        
         return cell
     }

@@ -21,8 +21,6 @@
 		14D8CC101DF97FA900E02078 /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8CC0E1DF97FA900E02078 /* PlaceCollectionViewCell.swift */; };
 		14D8CC111DF97FA900E02078 /* PlaceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D8CC0F1DF97FA900E02078 /* PlaceCollectionViewCell.xib */; };
 		14D8CC131DF9906A00E02078 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8CC121DF9906A00E02078 /* Constants.swift */; };
-		14DB818C1DFA952E00B184B9 /* ConstituencyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB818A1DFA952E00B184B9 /* ConstituencyDetailViewController.swift */; };
-		14DB818D1DFA952F00B184B9 /* ConstituencyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DB818B1DFA952E00B184B9 /* ConstituencyDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +61,6 @@
 		14D8CC0E1DF97FA900E02078 /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
 		14D8CC0F1DF97FA900E02078 /* PlaceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceCollectionViewCell.xib; sourceTree = "<group>"; };
 		14D8CC121DF9906A00E02078 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		14DB818A1DFA952E00B184B9 /* ConstituencyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstituencyDetailViewController.swift; sourceTree = "<group>"; };
-		14DB818B1DFA952E00B184B9 /* ConstituencyDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConstituencyDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +119,6 @@
 				145513A51DFE7B2F00DE8923 /* ConstDetailViewController.swift */,
 				145513A61DFE7B2F00DE8923 /* ConstDetailViewController.xib */,
 				14D8CC121DF9906A00E02078 /* Constants.swift */,
-				14DB818A1DFA952E00B184B9 /* ConstituencyDetailViewController.swift */,
-				14DB818B1DFA952E00B184B9 /* ConstituencyDetailViewController.xib */,
 				14D8CBD91DF97CBE00E02078 /* Main.storyboard */,
 				14D8CBDF1DF97CBE00E02078 /* Assets.xcassets */,
 				14D8CBE11DF97CBE00E02078 /* LaunchScreen.storyboard */,
@@ -266,7 +260,6 @@
 				14D8CBE01DF97CBE00E02078 /* Assets.xcassets in Resources */,
 				145513A81DFE7B3000DE8923 /* ConstDetailViewController.xib in Resources */,
 				14D8CC111DF97FA900E02078 /* PlaceCollectionViewCell.xib in Resources */,
-				14DB818D1DFA952F00B184B9 /* ConstituencyDetailViewController.xib in Resources */,
 				14D8CC0D1DF97EFE00E02078 /* ConstituencyViewController.xib in Resources */,
 				14D8CBDB1DF97CBE00E02078 /* Main.storyboard in Resources */,
 			);
@@ -298,7 +291,6 @@
 				14D8CBDE1DF97CBE00E02078 /* COYI.xcdatamodeld in Sources */,
 				14D8CC0C1DF97EFE00E02078 /* ConstituencyViewController.swift in Sources */,
 				14D8CBD61DF97CBE00E02078 /* AppDelegate.swift in Sources */,
-				14DB818C1DFA952E00B184B9 /* ConstituencyDetailViewController.swift in Sources */,
 				145513A71DFE7B2F00DE8923 /* ConstDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
